@@ -3,6 +3,7 @@ import NavbarComponent from "./components/Navbar/NavbarComponent"
 import CartPage from "./pages/CartPage"
 import PlaceOrderPage from "./pages/PlaceOrderPage"
 import HomePage from "./pages/HomePage"
+import FooterComponent from "./components/Footer/FooterComponent"
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
           path="/order" 
           element={<PlaceOrderPage/>}/>
       </Routes>
-      
+      <FooterComponent/>
     </div>
   )
 }

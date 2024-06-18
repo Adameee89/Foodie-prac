@@ -2,16 +2,23 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding: 20px 0px;
+    
+
 }
 
 .explore-menu h1{
     color: #747474;
     font-weight: 500;
+    font-size: 40px;
+    margin-left: 40px;
 }
 
 .explore-menu-text{
     max-width: 60%;
     color: #808080;
+    font-size: 20px;
+    margin-left: 40px;
 }
 
 .explore-menu-list{
@@ -22,6 +29,7 @@
     margin: 20px 0px ;
     text-align: center;
     overflow-x: scroll;
+    margin-left: 20px;
 
 }
 
@@ -55,4 +63,19 @@
     border: 5px solid tomato;
     padding: 5px;
 
+}
+
+@media (max-width: 1050px) {
+    .explore-menu h1{
+        margin-left: 0;
+        font-size: 30px;
+    }
+    .explore-menu-text{
+        margin-left: 0;
+        max-width: 100%;
+        font-size: 14px;
+    }
+    .explore-menu-list-item p{
+        font-size: 18px;
+    }
 }
