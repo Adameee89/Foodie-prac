@@ -8,7 +8,6 @@
 }
 
 .explore-menu h1{
-    color: #747474;
     font-weight: 500;
     font-size: 40px;
     margin-left: 40px;
@@ -16,7 +15,7 @@
 
 .explore-menu-text{
     max-width: 60%;
-    color: #808080;
+    color: #535353;
     font-size: 20px;
     margin-left: 40px;
 }
